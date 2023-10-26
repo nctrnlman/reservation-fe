@@ -1,9 +1,23 @@
-# React + Vite
+# Reservation Front End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Setup Project
 
-Currently, two official plugins are available:
+- React + Vite
+- Tailwind CSS -> CSS
+- React-Router-Dom -> url website
+- DaisyUI -> kaya bootstrapnya Tailwind
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# reservation-fe
+Getting Started
+
+1. npm install
+2. npm run dev
+
+NOTE :
+
+- Buat halaman di folder Pages dengan format (Namahalaman.jsx)
+- Buat komponen di folder Components dengan format (Namacomponent.jsx)
+- Wajib huruf pertama menggunakan kapital/ cari contoh namanya CamelCase
+- Lakukan Pull Request dari branch development
+- ketika ingin mengerjakan jangan lupa buat branch sendiri sesuai yang dikerjain contoh (feature/banner-homepage)
+- ketika ingin commit jangan lupa deskripsikan yang sudah dikerjakan dengan singkat
+- kalo mau contoh react component/react modular itu gimana, ada di github nctrnlman bagian jcwdol -> folder client
