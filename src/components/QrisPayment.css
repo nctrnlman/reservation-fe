@@ -1,0 +1,36 @@
+.checkmark-animation {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border-radius: 50%;
+    animation: checkmark 0.5s ease-out;
+  }
+  
+  .cross-animation {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    animation: cross 0.5s ease-out;
+  }
+  
+  @keyframes checkmark {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes cross {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+      background: none;
+      border: 2px solid white;
+    }
+  }
+  

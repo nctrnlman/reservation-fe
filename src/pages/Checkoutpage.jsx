@@ -9,7 +9,7 @@ import VoucherSystem from './VoucherSystem';
 import PaymentMethod from './PaymentMethod';
 import Total from './Total';
 import CheckoutButton from './CheckoutButton';
-import QRISPayment from './QRISPayment';
+import QrisPayment from './QrisPayment';
 
 function CheckoutPage() {
   const [selectedPaymentMethod, setSelectedPaymentMethod] = useState('credit_card');
@@ -35,7 +35,7 @@ function CheckoutPage() {
         selectedPaymentMethod={selectedPaymentMethod}
         onSelectPaymentMethod={(method) => setSelectedPaymentMethod(method)}
       />
-      <QRISPayment
+      <QrisPayment
         totalAmount={100 - voucherAmount} // Adjust the total amount based on vouchers
         onPaymentComplete={handlePaymentComplete}
       />
