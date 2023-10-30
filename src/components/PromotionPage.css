@@ -28,27 +28,4 @@
   .promo-button:hover {
     background-color: #0052a6;
   }
-
-  /* CheckoutPage.css */
-.checkout-page {
-    text-align: center;
-    margin: 20px;
-  }
-  
-  .checkout-button {
-    background-color: #0073e6;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    text-decoration: none;
-    margin-top: 20px;
-    display: inline-block;
-  }
-  
-  .checkout-button:hover {
-    background-color: #0052a6;
-  }
-  
   
