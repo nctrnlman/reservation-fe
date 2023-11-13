@@ -1,10 +1,12 @@
 import React from "react";
 import Card from "../components/Card";
+import PromotionPage from "../components/Promotions";
+import Banner from "../components/Banner";
 
 function Homepage() {
   return (
     <div className="text-center mx-auto ">
-      <div className=" mt-20 text-6xl">
+      {/* <div className=" mt-20 text-6xl">
         <h1>HOMEPAGE</h1>
         <h4>FRONT END RESERVATION</h4>
       </div>
@@ -22,7 +24,10 @@ function Homepage() {
       </div>
       <p className="mt-20 text-5xl">
         Ini contoh penggunaan pages (homepage) dan component (card)
-      </p>
+      </p> */}
+      <Banner />
+      <h1>PAKIH Card</h1>
+      <PromotionPage />
     </div>
   );
 }
